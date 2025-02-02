@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InlamningCsharp", "InlamningCsharp\InlamningCsharp.csproj", "{7A379A00-DC7E-47B9-B83F-C5F23CEAFA4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InlamningCsharp", "InlamningCsharp\InlamningCsharp.csproj", "{7A379A00-DC7E-47B9-B83F-C5F23CEAFA4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{CF962ABC-E5A4-463C-AEE8-F4238FE4F365}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InlamningCsharp.Tests", "InlamningCsharp.Tests\InlamningCsharp.Tests.csproj", "{7DBAC25D-0F9A-4A6C-B14D-BBF2774AD233}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{7A379A00-DC7E-47B9-B83F-C5F23CEAFA4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A379A00-DC7E-47B9-B83F-C5F23CEAFA4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A379A00-DC7E-47B9-B83F-C5F23CEAFA4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF962ABC-E5A4-463C-AEE8-F4238FE4F365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF962ABC-E5A4-463C-AEE8-F4238FE4F365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF962ABC-E5A4-463C-AEE8-F4238FE4F365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF962ABC-E5A4-463C-AEE8-F4238FE4F365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DBAC25D-0F9A-4A6C-B14D-BBF2774AD233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DBAC25D-0F9A-4A6C-B14D-BBF2774AD233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DBAC25D-0F9A-4A6C-B14D-BBF2774AD233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DBAC25D-0F9A-4A6C-B14D-BBF2774AD233}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
